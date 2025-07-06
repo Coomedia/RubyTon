@@ -40,7 +40,6 @@ nav {
     width: 1244.12px;
     height: 160px;
     padding-top: 96px;
-    padding-bottom: 46px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,16 +132,4 @@ nav .nav-links .about-btn:hover {
     border-radius: 50px;
     height: 4px;
     width: 1030px;
-}
-
-footer {
-    padding-top: 46px;
-    width: 1240px;
-    height: 400px;
-
-}
-footer h2 {
-    font-size: 60px;
-    font-weight: 900;
-    color: var(--white);
 }
