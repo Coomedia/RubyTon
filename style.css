@@ -126,6 +126,7 @@ nav .nav-links .about-btn:hover {
     outline-color: var(--secondary-900);
     transition: ease-in, 0.5s;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .divider {
@@ -139,10 +140,76 @@ footer {
     padding-top: 46px;
     width: 1240px;
     height: 400px;
-
 }
 footer h2 {
     font-size: 60px;
     font-weight: 900;
     color: var(--white);
+}
+
+footer h3 {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+footer .footer-contents {
+    display: flex;
+}
+
+footer .footer-nav { 
+    margin-right: 125px;
+}
+
+footer .socials {
+    margin-right: 125px;
+}
+
+footer ul {
+    margin: 0;
+
+}
+
+footer ul li {
+    list-style: none;
+
+}
+
+footer ul li i {
+    color: var(--gray);
+    opacity: 75%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+
+footer ul li a:hover {
+    color: var(--secondary-500);
+    transition: ease-in-out, 0.5s;
+    cursor: pointer;
+}
+
+footer .contact-us {
+    margin-right: 125px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+}
+footer .contact-us i {
+    color: var(--gray);
+    opacity: 75%;
+}
+
+footer .contact-us a:hover {
+    color: var(--secondary-500);
+    transition: ease-in-out, 0.5s;
+    cursor: pointer;
+}
+
+footer img {
+    height: 603px;
+    width: 603px;
 }
