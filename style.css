@@ -132,6 +132,52 @@ nav .nav-links .about-btn:hover {
     cursor: pointer;
 }
 
+.hero {
+    height: 501px;
+    width: 1026;
+    display: flex;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.hero .R {
+    color: var(--secondary-300);
+}
+
+.hero .D {
+    color: var(--primary-300);
+}
+
+.hero p {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.hero button {
+    width: 279px;
+    height: 60px;
+    background-color: var(--secondary-500);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero button:hover {
+    background-color: var(--primary-500);
+    transition: ease-in-out, 0.5s;
+}
+
+.hero img {
+    height: 501px;
+    width: 501px;
+
+}
+
 .divider {
     background-image: linear-gradient(45deg, var(--primary-500), var(--secondary-500));
     border-radius: 50px;
@@ -139,6 +185,79 @@ nav .nav-links .about-btn:hover {
     width: 1030px;
     margin-top: 46px;
     margin-bottom: 46px;
+}
+
+.stores {
+    height: 938px;
+    width: 1030px;
+}
+
+.stores h2 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--white);
+}
+
+.cards {
+    display: grid;
+    
+}
+
+.card {
+    height: 387px;
+    width: 387px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: var(--primary-900);
+}
+
+.card-contents {
+    height: 339.57px;
+    width: 294px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-contents a {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.card-contents i {
+    color: var(--gray);
+    opacity: 75%;
+    rotate: -45deg;
+    font-size: 40px;
+}
+
+.card-contents a:hover {
+    outline-style: solid;
+    outline-color: var(--primary-600);
+    outline-width: 4px;
+    transition: ease-in-out, 0.4s;
+}
+
+
+.card .store-img {
+    height: 163px;
+    width: 294px;
+    background-color: var(--primary-700);
+    border-radius: 20px;
 }
 
 footer {
