@@ -190,6 +190,10 @@ nav .nav-links .about-btn:hover {
 .stores {
     height: 938px;
     width: 1030px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .stores h2 {
@@ -201,9 +205,12 @@ nav .nav-links .about-btn:hover {
 
 .cards {
     display: grid;
-    
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
 }
-
 .card {
     height: 387px;
     width: 387px;
@@ -219,6 +226,7 @@ nav .nav-links .about-btn:hover {
 .card-contents {
     height: 339.57px;
     width: 294px;
+    padding-bottom: 20px;
 }
 
 .card h3 {
@@ -233,8 +241,8 @@ nav .nav-links .about-btn:hover {
 }
 
 .card-contents a {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     border-radius: 20px;
 }
 
@@ -242,16 +250,20 @@ nav .nav-links .about-btn:hover {
     color: var(--gray);
     opacity: 75%;
     rotate: -45deg;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .card-contents a:hover {
     outline-style: solid;
     outline-color: var(--primary-600);
-    outline-width: 4px;
+    outline-width: 2px;
     transition: ease-in-out, 0.4s;
 }
 
+.card-contents i:hover {
+    color: var(--black);
+    opacity: 100%;
+}
 
 .card .store-img {
     height: 163px;
@@ -260,10 +272,23 @@ nav .nav-links .about-btn:hover {
     border-radius: 20px;
 }
 
+.location h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.location iframe {
+    border-radius: 20px;
+}
+
 footer {
     width: 1240px;
     height: 550px;
 }
+
 footer h2 {
     font-size: 60px;
     font-weight: 900;
