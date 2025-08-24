@@ -4,188 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!--Stylesheet linking-->
-    <link rel="stylesheet" href="style.css">
-    <!--Inter font linking-->
+    <link rel="stylesheet" href="reusable.css">
+    <!--Fonts linking-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <!--Monoton font linking-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monoton&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation">
-        <!--logo-->
-        <div class="logo">
-            <img src="logo.svg" alt="RubyTon The Disneyworld logo" width="80px">
-            <h1>RUBYTON THE DISNEYWORLD</h1>
-        </div>
+   <nav>
+    <div class="logo_div">
+        <img src="images/logo.svg" alt="RubyTon the Disneyworld logo">
+        <h1>RUBYTON THE DISNEYWORLD</h1>
+    </div>
 
-        <!--nav-links-->
-        <div class="nav-links">
-            <ul>
-                <li>
+    <div class="nav_options">
+        <ul>
+            <li><a href="#">
+                <div class="nav_option">
                     <i class="fa-solid fa-house"></i>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
+                    <p>Home</p>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_option">
                     <i class="fa-solid fa-gamepad"></i>
-                    <a href="game-hub.html">Game hub</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-book"></i>
-                    <a href="bookshop.html">Bookshop</a>
-                </li>
-                <li>
+                    <p>Game Hub</p>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_option">
                     <i class="fa-solid fa-network-wired"></i>
-                    <a href="cyber.html">Cyber</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-baby-carriage"></i>
-                    <a href="baby-shop.html">Babyshop</a>
-                </li>
-            </ul>
-            <a href="about.html" class="about-btn">About Us</a>
-        </div>
-    </nav>
+                    <p>Cyber</p>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_option">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_option">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+            </a></li>
+            <li><a href="#">
+                <div class="nav_option">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+            </a></li>
 
-    <!--Hero section-->
-    <div class="hero">
-        <div class="hero-content">
-            <h1 class="R">RubyTon The</h1>
-            <h1 class="D">Disney World</h1>
-            <p>The place to find<br>your magic.</p>
-            <button>Contact us</button>
-        </div>
+        </ul>
 
-        <img src="RubyTon hero.svg" alt="Hero image for rubyton disneyworld">
+        <a href="#">About us</a>
     </div>
+   </nav>
 
-    <div class="divider"></div>
-
-    <!--Store cards-->
-    <div class="stores">
-        <h2>Our Stores</h2>
-        <div class="cards">
-            <div class="card">
-                <div class="card-contents">
-                    <h3>Game hub</h3>
-                    <div class="store-img"></div>
-                    <p>The place to fulfill your<br>wildest gaming imagination</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-contents">
-                    <h3>Cyber cafe</h3>
-                    <div class="store-img"></div>
-                    <p>The place to get all<br>your work done</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-contents">
-                    <h3>Bookshop</h3>
-                    <div class="store-img"></div>
-                    <p>The place to get those<br>academic requirements</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-contents">
-                    <h3>Baby shop</h3>
-                    <div class="store-img"></div>
-                    <p>The place to shop for<br>your bundle of joy</p>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-    <!--Location section-->
-    <div class="location">
-        <h2>Our location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.822601796012!2d36.95439553941085!3d-1.2800837987131117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f6caba1276ed3%3A0x874ee73d9f2d0de8!2sRubyton%20The%20Disyney%20World!5e0!3m2!1sen!2ske!4v1752312845250!5m2!1sen!2ske" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <div class="divider"></div>
-
-    <footer class="footer">
-        <h2>Footer</h2>
-        <div class="footer-contents">
-            <div class="footer-nav">
-                <h3>Wanna go back?</h3>
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-house"></i>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-gamepad"></i>
-                        <a href="game-hub.html">Game hub</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-book"></i>
-                        <a href="bookshop.html">Bookshop</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-network-wired"></i>
-                        <a href="cyber.html">Cyber</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-baby-carriage"></i>
-                        <a href="baby-shop.html">Babyshop</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-address-card"></i>
-                        <a href="about.html">About us</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="socials">
-                <h3>Want updates?<br>Follow our socials</h3>
-                <ul>
-                    <li>
-                        <i class="fa-brands fa-facebook"></i>
-                        <a href="https://www.facebook.com/share/1X1yDnmF1S/">@RubyTon The Disneyworld</a>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-tiktok"></i>
-                        <a href="https://www.tiktok.com/@rubytondisyneyworld?_t=ZM-8vkBBI9DLQz&_r=1">@rubytondisneyworld</a>
-                    </li>
-                    <li>
-                        <i class="fa-brands fa-instagram"></i>
-                        <a href="https://www.instagram.com/rubyton.disyneyworld?igsh=cmRocGRoeHlsODJ5">@rubyton.disneyworld</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="contact-us">
-                <h3>Contact us</h3>
-                <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <a tel="+254 701 450305">+254 701 450305</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <a tel="+254 717 514133">+254 701 450305</a>
-                </li>
-            </div>
-
-            <img src="bullseye.svg" alt="bullseye to signify an anchor in the footer of the website">
-        </div>
-
-        <p>@ 2025 RUBYTON THE DISNEY WOLD. All rights reserved.</p>
-    </footer>
+   
 
     <!--Font awesome linking-->
     <script src="https://kit.fontawesome.com/c1e70c3095.js" crossorigin="anonymous"></script>

@@ -1,0 +1,73 @@
+/* root dir */
+:root {
+    --dark: #1d1e18;
+    --light: #f5fff5;
+    --gray: #c0bfa0;
+    --primary-500: #3884ff;
+    --priary-600: #2d6acc;
+    --primary-700: #224f99;
+    --primary-800: #163566;
+    --primary-900: #0b1a33;
+    --primary-100: #ebf2ff;
+    --primary-200: #d1e3ff;
+    --primary-300: #9ec3ff;
+    --primary-840: #6ba4ff;
+    --secondary-100: #FFF4D6;
+    --secondary-200: #FFE7A3;
+    --secondary-300: #FFD970;
+    --secondary-400: #FFCC3D;
+    --secondary-500: #FFBE0A;
+    --secondary-600: #CC9808;
+    --secondary-700: #997206;
+    --secondary-800: #664C04;
+    --secondary-900: #332602;
+    --gradient: linear-gradient(-45deg, var(--primary-500), var(--dark));
+}
+
+body {
+    background-image: var(--gradient);
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    color: var(--light);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* nav styling */
+nav {
+    display: flex;
+    flex-direction: column;
+    max-height: 160px;
+    max-width: 1244.12px;
+}
+
+.logo_div {
+    font-family: 'Monoton', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_div img {
+    max-width: 80px;
+    max-height: 80px;   
+    margin-left: 20px;
+}
+
+.logo_div h1 {
+    font-weight: 100;
+    font-size: 44px;
+}
+
+.nav_options {
+    margin-top: 42px;
+}
+
+.nav_options ul {
+    display: flex;
+}
+
+.nav_options li {
+    display: flex;
+    list-style: none;
+}
