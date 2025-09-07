@@ -29,6 +29,9 @@
     --nav-height: clamp(2.7425rem, -0.5100000000000002rem + 14.455555555555557vw, 12.5rem);
     --abt-size: clamp(1.25rem, -1.25rem + 5vw, 1.875rem);;
     --footer-text-sizing: clamp(0.625rem, -0.625rem + 2.5vw, 0.9375rem);
+    --hero-img: clamp(22.5rem, 17.54296875rem + 22.031250000000004vw, 31.3125rem);
+    --hero-h1: clamp(2rem, 1.015625rem + 4.375vw, 3.75rem);
+    --hero-btn: clamp(1.25rem, 0.546875rem + 3.125vw, 2.5rem);
 }
 
 

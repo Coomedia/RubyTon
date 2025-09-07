@@ -1,6 +1,5 @@
-@import url(./reusable.css);
+@import url(reusable.css);
 
-/* hero styling */
 .y {
     color: var(--secondary-300);
     
@@ -26,6 +25,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.game {
+    display: flex;
+}
+
+.game .b {
+    margin-left: 20px;
 }
 
 .hero-text h1 {
@@ -67,81 +74,23 @@
     }
 }
 
-/* store cards*/
-.stores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/* slider styling */
+.slider {
     width: 100%;
+    max-height: 700px;
+    min-height: 100px;
 }
 
-.stores h1 {
-    text-align: center;
-}
-
-.card {
-    background-color: var(--light);
-    color: var(--dark);
-    max-width: 387px;
-    min-width: 100px;
-    aspect-ratio: 1 / 1;
-    margin: 40px;
-    border-radius: 10px;
-    padding: 4px 20px;
-}
-
-.card:hover {
-    border: solid 4px var(--primary-500);
-    transition: ease-in 0.2s;
-}
-
-.stores .card-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 40px; 
-}
-
-.card div {
-    background-color: var(--primary-500);
-    max-width: 500px;
+.slider .slide {
+    background-color: var(--dark);
+    max-width: 610px;
     min-width: 100px;
     aspect-ratio: 16 / 9;
     border-radius: 20px;
+    margin: 0 50px;
 }
 
-
-.card h3 {
-    text-align: center;
-}
-
-.card p {
-    font-weight: 600;
-}
-
-.card i {
-    color: var(--dark);
+.slider .slider-btn {
     font-size: 40px;
-    rotate: -45deg;
-}
-
-@media (min-width: 800px) {
-    .card-container {
-        grid-template-columns: 387px 387px;
-    }
-}
-
-/* Location styling */
-.location {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.location .map {
-    width: 80%;
-    aspect-ratio: 16 / 9;
+    color: var(--light);
 }
