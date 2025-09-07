@@ -1,0 +1,65 @@
+@import url(./reusable.css);
+
+/* hero styling */
+.y {
+    color: var(--secondary-300);
+    
+}
+
+.b {
+    color: var(--primary-300);
+    text-wrap: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    width: clamp(22.5rem, 17.54296875rem + 22.031250000000004vw, 31.3125rem);
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: clamp(2rem, 1.015625rem + 4.375vw, 3.75rem);
+}
+
+.hero-text button {
+    font-weight: 600;
+    border: none;
+    background-color: var(--secondary-500);
+    border-radius: 5px;
+    color: var(--secondary-900);
+    font-size: clamp(1.25rem, 0.546875rem + 3.125vw, 2.5rem);
+}
+
+.hero-text button:active {
+    background-color: var(--primary-500);
+}
+
+@media (min-width: 800px) {
+    .hero {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .hero img {
+        margin-left: auto;
+    }
+
+    .hero-text {
+        text-align: left;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+}
