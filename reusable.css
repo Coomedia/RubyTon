@@ -21,7 +21,7 @@
     --secondary-700: #997206;
     --secondary-800: #664C04;
     --secondary-900: #332602;
-    --gradient: linear-gradient(-45deg, var(--primary-500), var(--dark));
+    --gradient: linear-gradient(-45deg, var(--primary-800), var(--dark));
     --div-gradient: linear-gradient(45deg, var(--primary-500), var(--secondary-500));
     --h1: clamp(0.625rem, 0.11363636363636365rem + 2.272727272727273vw, 1.25rem);
     --img: clamp(2.5rem, 1.6666666666666667rem + 3.7037037037037033vw, 5rem);
@@ -264,6 +264,7 @@ footer .nav-links ul li a{
 footer .nav-links ul li a:hover {
     color: var(--secondary-500);
     transition: ease-in 0.5s;
+    cursor: pointer;
 }
 
 footer .nav-links ul li i {
@@ -284,6 +285,7 @@ footer .socials ul li a{
 footer .socials ul li a:hover {
     color: var(--secondary-500);
     transition: ease-in 0.5s;
+    cursor: pointer;
 }
 
 footer .socials ul li i {
@@ -304,6 +306,7 @@ footer .contact ul li a{
 footer .contact ul li a:hover {
     color: var(--secondary-500);
     transition: ease-in 0.5s;
+    cursor: pointer;
 }
 
 footer .contact ul li i {
