@@ -75,22 +75,66 @@
 }
 
 /* slider styling */
+.game-slider {
+    height: fit-content;
+    margin: 0 20px 0 20px;
+}
+
+.game-slider h1 {
+    text-align: center;
+}
+
 .slider {
-    width: 100%;
+    min-height: 200px;
     max-height: 700px;
-    min-height: 100px;
+    aspect-ratio: 1 / 1;
 }
 
-.slider .slide {
-    background-color: var(--dark);
-    max-width: 610px;
-    min-width: 100px;
-    aspect-ratio: 16 / 9;
+.card-wrapper {
+    display: flex;
+    flex-grow: 1;
+    width: fit-content;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--primary-500);
+    font-size: 30px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: var(--secondary-500);
+    transition: ease-in 0.2s;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
     border-radius: 20px;
-    margin: 0 50px;
 }
 
-.slider .slider-btn {
-    font-size: 40px;
-    color: var(--light);
+.card img {
+    height: clamp(6.25rem, -7.8125rem + 62.5vw, 31.25rem);
+}
+
+/* Price list styling */
+.price-list h1 {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+
+th {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+th, td {
+    background-color: linear-gradient(to right, var(--primary-900), var(--primary-300));
+    text-align: left;
 }
