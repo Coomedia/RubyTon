@@ -1,0 +1,14 @@
+@import url(reusable.css);
+
+/* items section */
+.items {
+    width: 100%;
+}
+
+.IT
+
+.items-container .item {
+    background-color: var(--dark);
+    border-radius: 20px;
+    text-align: center;
+}

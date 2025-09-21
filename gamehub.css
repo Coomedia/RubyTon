@@ -121,20 +121,77 @@
 }
 
 /* Price list styling */
+.price-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .price-list h1 {
     text-align: center;
 }
 
-.table {
-    width: 100%;
+table {
+    border-collapse: collapse;
+    border: solid 2px var(--light);
+    background-image: var(--gradient);
+    margin: 0px 20px 0px 20px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.1562499999999999rem + 3.7500000000000004vw, 2.5rem);
 }
 
 th {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    color: var(--dark);
+    padding: 4px 0px 4px 0px;
+    background-color: var(--secondary-500);
+}
+
+tr {
+    border-bottom: solid 2px;
 }
 
 th, td {
-    background-color: linear-gradient(to right, var(--primary-900), var(--primary-300));
     text-align: left;
+    text-wrap: none;
+}
+
+/* systems section */
+.systems {
+    width: 100%;
+}
+
+.systems h1 {
+    text-align: center;
+}
+
+.systems .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.systems .img {
+    background-color: var(--dark);
+    padding: 20px;
+    margin: 0px 0px 40px 0px;
+    border-radius: 20px;
+}
+
+.systems img {
+    border-radius: 20px;
+    min-width: 100px;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+}
+
+@media (min-width: 800px) {
+    .systems .img-container {
+        flex-direction: row;
+    }
+
+    .systems .img:not(.last) {
+        margin-right: 20px;
+    }
 }
