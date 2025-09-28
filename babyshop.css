@@ -1,0 +1,15 @@
+@import url(reusable.css);
+
+.items h1 {
+    text-align: center;
+}
+
+.items ul {
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.1562499999999999rem + 3.7500000000000004vw, 2.5rem);
+}
+
+.items p {
+    text-align: center;
+    opacity: 75%;
+}

@@ -1,0 +1,17 @@
+@import url(reusable.css);
+
+table {
+    width: 100%;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.859375rem + 0.625vw, 1.25rem);
+}
+
+table th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+

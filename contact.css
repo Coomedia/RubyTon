@@ -1,0 +1,12 @@
+@import url(reusable.css);
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.1562499999999999rem + 3.7500000000000004vw, 2.5rem);
+}
