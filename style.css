@@ -37,12 +37,13 @@
     gap: 40px; 
 }
 
-.card div {
-    background-color: var(--primary-500);
-    max-width: 500px;
-    min-width: 100px;
-    aspect-ratio: 16 / 9;
+.card img {
     border-radius: 20px;
+    align-self: center;
+    padding: 0px 10px 0px 5px;
+    max-width: 250px;
+    min-width: 50px;
+    aspect-ratio: 16 / 9;
 }
 
 
