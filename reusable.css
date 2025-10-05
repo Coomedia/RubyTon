@@ -23,7 +23,7 @@
     --secondary-900: #332602;
     --gradient: linear-gradient(-45deg, var(--primary-800), var(--dark));
     --div-gradient: linear-gradient(45deg, var(--primary-500), var(--secondary-500));
-    --h1: clamp(0.625rem, 0.11363636363636365rem + 2.272727272727273vw, 1.25rem);
+    --h1: clamp(1.25rem, 0.546875rem + 3.125vw, 2.5rem);
     --img: clamp(2.5rem, 1.6666666666666667rem + 3.7037037037037033vw, 5rem);
     --nav-txt: clamp(0.625rem, 0.484375rem + 0.625vw, 0.875rem);
     --nav-height: clamp(2.7425rem, -0.5100000000000002rem + 14.455555555555557vw, 12.5rem);
