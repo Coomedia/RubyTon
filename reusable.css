@@ -117,8 +117,8 @@ nav .nav-options a:hover {
     transition: ease-in 0.2s;
 }
 
-nav .nav-options i {
-    margin-right: 34px;
+nav .nav-options p {
+    margin-right: 30px;
 }
 
 nav .nav-options p {
@@ -203,7 +203,7 @@ nav .nav-options p {
     }
     
     nav .nav-options ul li i:not(.house) {
-        margin-left: 34px;
+        margin: 0px 10px 0px 10px;
     }
 
     nav .nav-options .about-btn{
@@ -422,7 +422,7 @@ footer .copyright {
     }
 
     footer img {
-        width: 380px;
+        width: 200px;
         aspect-ratio: 1 / 1;
         margin-left: auto;
     }

@@ -4,9 +4,34 @@ h1 {
     text-align: center;
 }
 
-p {
+.nav-options li i {
     text-align: center;
     margin: 0 20px 0 20px;
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.1562499999999999rem + 3.7500000000000004vw, 2.5rem);
+}
+
+.abt p {
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+footer p {
+    text-wrap: nowrap;
+}
+
+.contacts h2 {
+    text-align: center;
+}
+
+.contacts ul li {
+    list-style-type: none;
+}
+
+.contacts li i {
+    margin-right: 20px;
+}
+
+.contacts ul li a {
+    display: flex;
+    align-items: center;
+
 }
