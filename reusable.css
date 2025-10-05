@@ -23,11 +23,11 @@
     --secondary-900: #332602;
     --gradient: linear-gradient(-45deg, var(--primary-800), var(--dark));
     --div-gradient: linear-gradient(45deg, var(--primary-500), var(--secondary-500));
-    --h1: clamp(1.25rem, 0.546875rem + 3.125vw, 2.5rem);
+    --h1: clamp(0.625rem, -0.078125rem + 3.125vw, 1.875rem);
     --img: clamp(2.5rem, 1.6666666666666667rem + 3.7037037037037033vw, 5rem);
     --nav-txt: clamp(0.625rem, 0.484375rem + 0.625vw, 0.875rem);
     --nav-height: clamp(2.7425rem, -0.5100000000000002rem + 14.455555555555557vw, 12.5rem);
-    --abt-size: clamp(1.25rem, -1.25rem + 5vw, 1.875rem);;
+    --abt-size: clamp(0.625rem, -1.875rem + 5vw, 1.25rem);
     --footer-text-sizing: clamp(0.625rem, -0.625rem + 2.5vw, 0.9375rem);
     --hero-img: clamp(22.5rem, 17.54296875rem + 22.031250000000004vw, 31.3125rem);
     --hero-h1: clamp(2rem, 1.015625rem + 4.375vw, 3.75rem);
@@ -189,6 +189,7 @@ nav .nav-options p {
         max-height: 30px;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         background-color: transparent;
         width: 100%;
         text-wrap: nowrap;
@@ -209,7 +210,7 @@ nav .nav-options p {
         background-color: var(--primary-300);
         font-size: var(--abt-size);
         border-radius: 50px;
-        margin-left: auto;
+        margin-left: 25px;
         border: solid, 2px, var(--primary-900);
         color: var(--primary-900);
         padding: 4px;
