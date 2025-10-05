@@ -1,0 +1,11 @@
+@import url(reusable.css);
+
+h1 {
+    text-align: center;
+}
+
+li {
+    font-size: 0.625rem;
+    font-size: clamp(0.625rem, -0.4296875rem + 4.6875vw, 2.5rem);
+    line-height: 50px;
+}
