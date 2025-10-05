@@ -66,10 +66,14 @@ nav .logo {
     margin-right: auto;
 }
 
+nav .logo h1 {
+    opacity: 0;
+}
 
 nav .logo img {
     height: var(--img);
     aspect-ratio: 1 / 1;
+    height: clamp(3.125rem, 0.5681818181818183rem + 11.363636363636363vw, 6.25rem);
     margin-left: 0;
     margin-right: 10px;
 }
@@ -154,6 +158,14 @@ nav .nav-options p {
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+
+    nav .logo h1 {
+        opacity: 100%;
+    }
+
+    nav .logo img {
+        opacity: 0;
     }
 
     nav h1 {
