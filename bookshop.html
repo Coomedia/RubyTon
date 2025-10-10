@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monoton&display=swap" rel="stylesheet">
+    <!-- swiper linking-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <!-- nav -->
@@ -161,6 +163,27 @@
     
     <div class="divider"></div>
 
+    <div class="section img-slider">
+        <h1>Here's a sneak peak in the shop</h1>
+        <div class="slider swiper">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="swiper-slide"><img class="slide" src="images/caroussel-images/bookshop2.svg"></div>
+                <div class="swiper-slide"><img class="slide" src="images/caroussel-images/bookshop3.svg"></div>
+                <div class="swiper-slide"><img class="slide" src="images/caroussel-images/bookshop4.svg"></div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    
+    </div>
+
+    <div class="divider"></div>
+
     <!-- footer -->
     <footer class="section">
         <h1>Footer</h1>
@@ -238,6 +261,10 @@
 
     <!--Font awesome linking-->
     <script src="https://kit.fontawesome.com/c1e70c3095.js" crossorigin="anonymous"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 
     <!--js linking-->
     <script src="scroller.js"></script>

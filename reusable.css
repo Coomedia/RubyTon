@@ -437,13 +437,3 @@ footer .copyright {
 .section.show {
     opacity: 100%;
 }
-
-/* caroussel styling */
-.swiper {
-    width: 100%;
-}
-
-.swiper-slide {
-    min-width: 100px;
-    aspect-ratio: 16 / 9;
-}

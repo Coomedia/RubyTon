@@ -57,3 +57,16 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+/* slider styling */
+.card-wrapper {
+    height: fit-content;
+}
+
+
+.slide {
+    min-width: 200px;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+}
+

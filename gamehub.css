@@ -75,49 +75,21 @@
 }
 
 /* slider styling */
-.game-slider {
-    height: fit-content;
-    margin: 0 20px 0 20px;
-}
-
-.game-slider h1 {
+.slider h1 {
     text-align: center;
 }
 
-.slider {
-    min-height: 200px;
-    max-height: 700px;
-    aspect-ratio: 1 / 1;
-}
-
-.card-wrapper {
-    display: flex;
-    flex-grow: 1;
-    width: fit-content;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    color: var(--primary-500);
-    font-size: 30px;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    color: var(--secondary-500);
-    transition: ease-in 0.2s;
-}
-
-.swiper-slide {
+.slider .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1 / 1;
-    border-radius: 20px;
 }
 
-.card img {
-    height: clamp(6.25rem, -7.8125rem + 62.5vw, 31.25rem);
+.slider img {
+    height: 200px;
+    max-height: 500px;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
 }
 
 /* Price list styling */
